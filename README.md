@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aston Martin DB11 Showcase
 
-## Getting Started
+A beautiful, interactive, single-page showcase for the Aston Martin DB11. This project features a stunning scroll-controlled image sequence background and a sleek HUD-style interface that updates automatically as you scroll down the page.
 
-First, run the development server:
+## ✨ Features
+* **Interactive Scroll Sequence:** The background car rotates seamlessly as you scroll down.
+* **Dynamic HUD Interface:** Animated text overlays reveal key details about the car's performance, design, and interior.
+* **Modern Tech Stack:** Built with the latest technologies including Next.js 14, React 19, Tailwind CSS v4, and Framer Motion for smooth animations.
+* **Fully Responsive:** Looks and feels luxurious on both desktop and mobile devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 How to Run Locally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you want to view, test, or edit this project on your own computer, just follow these simple steps:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Install the required packages:**
+   Make sure you have Node.js installed on your computer, then run:
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-## Learn More
+3. **Open the website:**
+   Open your favorite web browser and go to [http://localhost:3000](http://localhost:3000) to see it in action!
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 How to Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is fully configured for static export, making it incredibly easy to host on platforms like Netlify.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Create a production build:
+   ```bash
+   npm run build
+   ```
+2. After the build finishes, it will generate an `out` folder.
+3. Simply drag and drop the `out` folder into [Netlify Drop](https://app.netlify.com/drop) to publish your site instantly!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Built to showcase the beauty of the Aston Martin DB11.*
